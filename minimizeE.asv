@@ -1,0 +1,16 @@
+
+   
+
+
+%data = fminsearch(@(x) funToMinLang(x), [5])
+
+
+%0.8398   -0.0181
+
+f = @(x) funToMinLang(x);
+X = 1:.01: 3; 
+for i=X
+Y = f(X);
+
+end 
+plot(X,Y) 
